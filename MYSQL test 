@@ -1,0 +1,5 @@
+ 
+for test table it looks like this: 
+ 
+ 
+SELECT id FROM test GROUP BY id HAVING COUNT(*) > 1;
